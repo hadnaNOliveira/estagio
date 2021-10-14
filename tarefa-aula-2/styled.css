@@ -1,0 +1,89 @@
+body {
+    background-color:whitesmoke;
+}
+header {
+    background-color:#1A75C1;
+}
+header img {
+    width: 50px;
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 100%;
+}
+header small {
+    position: absolute;
+    top: 40;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+nav {
+    position: relative;
+    text-align: right;
+}
+nav li{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 20px;
+    font-size: 30px;
+}
+nav a {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+}
+.anuncios {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.anuncios h2 {
+    font-size: 22px;
+    font-weight: bold;
+}
+.anuncios li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1%;
+    padding: 20px 5px;
+    box-sizing: border-box;
+}
+.titulo-container {
+    margin-bottom: 15px;
+}
+.descricao p {
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+}
+.endereco {
+    margin-top: 100px;
+    font-size: 30px;
+    font-weight: bold ;
+    text-align: center;
+}
+.mapa {
+    justify-content: center;
+    display: flex;
+    margin: 30px 0;
+}
+footer nav {
+    background-color: #1A75C1;
+    text-align: right;
+}
+footer nav p {
+    position: absolute;
+    text-align: left;
+    margin: 25;
+    color: white;
+    font-size: 22px;
+}

@@ -10,6 +10,9 @@ body {
 header {
     background-color: red;
 }
+small {
+    font-size: 40;
+}
 .container {
     width: 1200px;
     margin: auto;
