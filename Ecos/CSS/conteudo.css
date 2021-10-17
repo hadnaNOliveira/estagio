@@ -1,0 +1,101 @@
+/*-- Conteúdo --*/
+
+.conteudo {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 100%;
+}
+.container1 h1 {
+  color: #1A75C1;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 104px;
+}
+.container1 p {
+  color: #1A75C1;
+  margin-top:200px;
+}
+.container1 a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #847E7E;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.container1 span {
+  display: flex;
+  justify-content: center;
+}
+
+/* -- Section 1 -- */
+.section1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+#next {
+  width: 300px;
+  height: 350px;
+  background-color: white;
+}
+#kanban {
+  width: 300px;
+  height: 350px;
+  background-color: white;
+}
+#camunda {
+  width: 300px;
+  height: 350px;
+  background-color: white;
+}
+.section1 img {
+  width: 300px;
+  height: 300px;
+}
+
+/* -- Section 2 --*/
+.section2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+#universo {
+  width: 300px;
+  height: 350px;
+  background-color: white;
+}
+#trilhas {
+  width: 300px;
+  height: 350px;
+  background-color: white;
+}
+#microservices {
+  width: 300px;
+  height: 350px;
+  background-color: white;
+}
+
+/* -- Section 3 -- */
+.section3 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+#vemser {
+  width: 300px;
+  height: 350px;
+  background-color: white;
+}
+#produto {
+  width: 300px;
+  height: 350px;
+  background-color: white;
+}
+#aniversariodbc {
+  width: 300px;
+  height: 350px;
+  background-color: white;
+}
+
+
