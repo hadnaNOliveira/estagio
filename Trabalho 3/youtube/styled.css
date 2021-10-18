@@ -1,0 +1,46 @@
+html, body, *, ul, li {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 40px;
+    justify-content: space-between;
+}
+header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+}
+nav ul li {
+    display: inline;
+}
+
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.principal {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.section1 img {
+    width: 800px;
+    height: 500px;
+}
+.section2 {
+    margin-left: 30px;
+}
+.section2 img {
+    width: 350px;
+    height: 200px;
+}
+p {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
