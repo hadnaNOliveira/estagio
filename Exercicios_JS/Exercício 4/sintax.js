@@ -3,8 +3,8 @@ var opt = prompt("Informe a operação desejada")
 var n2 = Number(prompt("Insira um valor:"))
 
 
-if (typeof n1 === Number && n1.toString() !== NaN
-    && typeof n2 === Number && n2.toString() !== NaN) {
+if (typeof n1 === 'number' && n1.toString() !== 'NaN'
+    && typeof n2 === 'number' && n2.toString() !== 'NaN') {
 
         if(opt === "+") {
             var resultado = n1 + n2
@@ -25,11 +25,6 @@ if (typeof n1 === Number && n1.toString() !== NaN
         if (opt !== "+" && opt !== "-" && opt !== "/" && opt !== "*") {
             alert("Por favor, insira um operador válido")
         }
-}
-if (typeof n1 === Number && n1.toString() !== NaN
-&& typeof n2 === Number && n2.toString() !== NaN
-&& opt !== "+" && opt !== "-" && opt !== "/" && opt !== "*") {
-    alert("Por favor, informe um número e operador válidos")
 }
 else {
     alert("Utilize apenas números, para realizar a operação desejada.")
