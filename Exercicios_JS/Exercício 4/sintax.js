@@ -18,13 +18,18 @@ if (typeof n1 === Number && n1.toString() !== NaN
             var resultado = n1 * n2
             alert(resultado)
         }
-        if (opt === "/" && n1 !== "0" && n2 !== "0") {
+        if (opt === "/" && n2 !== 0) {
             var resultado = n1 / n2
             alert(resultado)
         }
+        if (opt !== "+" && opt !== "-" && opt !== "/" && opt !== "*") {
+            alert("Por favor, insira um operador válido")
+        }
 }
-else if (opt !== "+" && opt !== "-" && opt !== "/" && opt !== "*") {
-    prompt("Por favor, insira um operador válido")
+if (typeof n1 === Number && n1.toString() !== NaN
+&& typeof n2 === Number && n2.toString() !== NaN
+&& opt !== "+" && opt !== "-" && opt !== "/" && opt !== "*") {
+    alert("Por favor, informe um número e operador válidos")
 }
 else {
     alert("Utilize apenas números, para realizar a operação desejada.")
